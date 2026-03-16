@@ -57,7 +57,7 @@ class_labels_ja = {
 # ========================
 # 学習済みモデル読み込み
 # ========================
-model = load_model("./model.keras")
+model = load_model("./car_classifier_submit.h5")
 
 # モデルの入力shapeを確認
 # 例: (None, 224, 224, 3) など
